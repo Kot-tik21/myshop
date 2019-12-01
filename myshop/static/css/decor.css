@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Gochi_Hand_Cyrillic";
+    src: url('fonts/Gochi_Hand_Cyrillic.otf');
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #EFFBF8;
+    font-family: "Gochi_Hand_Cyrillic", cursive, sant-serif;
+}
+
+.header {
+    /*background: url(images/main_menu.jpg) no-repeat;
+    filter: alpha(Opacity=25);
+    opacity: 0.25;*/
+    position: relative;
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.my_shop {
+    position: absolute;
+    left: 20px;
+}
+
+.container {
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.menu_markertype {
+  list-style-type: none;
+  list-style-position: inside;
+  position: absolute;
+  right: 20px;
+}
+
+.menu_markertype li {display: inline-block;}
+
+.menu_markertype a {
+  margin: 0 5px;
+  color: #034314;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.markertype{
+  list-style-type: none;
+  list-style-position: inside;
+  font-family: cursive;
+  color: #353904;
+  list-style-image: url('images/star.png');
+}
+
+.menu_link:hover { color: black; }
+
+.description {
+    padding: 10px 15px 20px 25px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: inline;
+}
+
+.content_h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+button {
+  color: black;
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #BE81F7;
+  padding: .7em 1.5em;
+  float: right;
+}
+button:hover { background: #FE2E2E; } /* при наведении курсора мышки */
+button:active { background: #FF0000; } /* при нажатии */
+
+.content_detail_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.content_short_description{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.content_short_description:first-letter, .content_detail_description:first-letter {
+    font-family: cursive;
+    height: 50px;
+}
+
+#your_name, #your_address, #your_mes {
+  width: 200px;
+  height: 20px;
+  color: #160C36;
+  font-style: italic;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#your_address:focus {
+    color: blue;
+    background-color: #DCF2FD;
+}
+
+.input_letter {
+  width: 200px;
+  height: 50px;
+  text-transform: capitalize;
+}
+
+.content_frame {
+  width: 300px;
+  height: 300px;
+  border: 4px solid #000;
+}
+
+.content_frame:hover {
+    border: 4px solid transparent;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #353904;
+}
+
+table thead, th {
+    border: 1px solid black;
+    font-family: cursive;
+    color: black;
+    height: 40px;
+}
+
+table td {
+    border: 1px solid black;
+    vertical-align: middle;
+    text-align: center;
+    font-family: cursive;
+}
+
+.footer {
+    width: 960px;
+    height: 100px;
+    background: #58FA82;
+    position: relative;
+    margin: 10px auto;
+}
+
+.footer p {
+    position: absolute;
+    right: 10px;
+}
